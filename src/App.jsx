@@ -19,7 +19,7 @@ export const App = () => {
   const [selectedItem, setSelectedItem] = useState(goods[8]);
 
   const handleClear = () => {
-    setSelectedItem(null);
+    setSelectedItem('');
   };
 
   return (
